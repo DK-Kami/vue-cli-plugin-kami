@@ -1,4 +1,4 @@
-# kami-vue-preset
+# README
 🦊 Preset for Vuetify-base application
 
 
