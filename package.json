@@ -5,6 +5,5 @@
   "repository": {
     "type": "git",
     "url": "git+https://github.com/KamiMeow/kami-vue-preset.git"
-  },
-  "homepage": "https://github.com/KamiMeow/kami-vue-preset#kami-vue-preset"
+  }
 }
