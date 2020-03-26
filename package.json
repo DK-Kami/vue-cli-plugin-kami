@@ -2,8 +2,24 @@
   "name": "vue-cli-plugin-kami",
   "version": "1.0.0",
   "description": "vue-cli preset for Vuetify-base application",
+  "main": "index.js",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/KamiMeow/kami-vue-preset.git"
+  },
+  "keywords": [
+    "vue",
+    "cli",
+    "preset",
+    "vuetify"
+  ],
+  "author": "Kami-san",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/KamiMeow/vue-cli-plugin-kami/issues"
+  },
+  "homepage": "https://github.com/KamiMeow/vue-cli-plugin-kami#readme",
+  "publishConfig": {
+    "access": "public"
   }
 }
