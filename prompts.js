@@ -94,3 +94,4 @@
 // ];
 
 // module.exports = prompts;
+module.exports = [];
