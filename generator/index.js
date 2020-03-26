@@ -1,4 +1,6 @@
 const generator = (api, options, preset) => {
+  console.log('test');
+  console.log(options);
   api.render('./template');
 
   api.extendPackage({
