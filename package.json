@@ -1,6 +1,6 @@
 {
   "name": "vue-cli-plugin-kami",
-  "version": "1.0.0",
+  "version": "1.2.5",
   "description": "vue-cli preset for Vuetify-base application",
   "main": "index.js",
   "repository": {
