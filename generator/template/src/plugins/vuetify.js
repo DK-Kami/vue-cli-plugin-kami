@@ -1,9 +1,13 @@
+import Vue from 'vue';
+import Vuetify from 'vuetify/lib';
 import ru from 'vuetify/es5/locale/ru';
+
+Vue.use(Vuetify);
 
 /**
  * Конфигурация Vuetify
  */
-export default {
+export default new Vuetify({
   theme: {
     themes: {
       light: {
@@ -25,4 +29,4 @@ export default {
   icons: {
     iconfont: 'mdi',
   },
-};
+});
