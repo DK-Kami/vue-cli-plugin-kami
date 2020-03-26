@@ -1,7 +1,7 @@
 const generator = (api, options, preset) => {
   // console.log('test');
   // console.log(options);
-  api.render('./template/src/components');
+  // api.render('./template/src/components');
 
   // api.extendPackage({
   //   dependencies: {
