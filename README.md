@@ -1,5 +1,5 @@
 # README
-🦊 Preset for Vuetify-base application
+🦊 Preset for Vue application
 
 
 ## Usage
