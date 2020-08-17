@@ -9,8 +9,15 @@
   },
   "keywords": [
     "vue",
+    "vuejs",
     "cli",
-    "preset"
+    "preset",
+    "vue-cli",
+    "vue-cli-plugin",
+    "vuex",
+    "vue-router",
+    "axios",
+    "DAL"
   ],
   "author": "Kami-san",
   "license": "MIT",
@@ -19,7 +26,6 @@
   },
   "homepage": "https://github.com/KamiMeow/vue-cli-plugin-kami#readme",
   "publishConfig": {
-    "registry": "https://npm.pkg.github.com/",
     "access": "public"
   }
 }
