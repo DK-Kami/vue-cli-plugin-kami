@@ -19,6 +19,7 @@
   },
   "homepage": "https://github.com/KamiMeow/vue-cli-plugin-kami#readme",
   "publishConfig": {
+    "registry": "https://npm.pkg.github.com/",
     "access": "public"
   }
 }
