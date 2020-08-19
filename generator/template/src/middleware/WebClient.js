@@ -30,17 +30,11 @@ class WebClient {
    * Установка обработчиков 
    */
   setInterceptors() {
-    this.axios.interceptors.response.use(res => {
+    this.axios.interceptors.response.use(response => {
       /// Постобработка усппешных запросов
+      return Promise.resolve(response);
     }, error => {
       /// Постобработка не усппешных запросов
-
-      if ([401, 403].includes(error.data.status)) {
-        this.store.dispatch('unsetUserData');
-        setTimeout(() => {
-          this.router.replace({ name: "login" });
-        }, 0);
-      }
       return Promise.reject(error);
     });
   }

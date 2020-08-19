@@ -1,21 +1,22 @@
 /**
  * Пример сервиса
  */
+import webClient from '@mdw/WebClient';
 
 export default {
   loadExamples() {
-    return this.apiClient.get('example');
+    return webClient.get('example');
   },
   loadExample(id) {
-    return this.apiClient.get('example', { id });
+    return webClient.get('example', { id });
   },
   createExample(data) {
-    return this.apiClient.post('example', data);
+    return webClient.post('example', data);
   },
   updateExample(data) {
-    return this.apiClient.put('example', data);
+    return webClient.put('example', data);
   },
   deleteExample(id) {
-    return this.apiClient.delete('example', { id });
+    return webClient.delete('example', { id });
   },
 };
