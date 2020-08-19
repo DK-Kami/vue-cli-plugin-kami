@@ -5,7 +5,6 @@
 import Vue from 'vue';
 import Vuex from 'vuex';
 import modules from './modules';
-import initialModules from './initialModules';
 
 Vue.use(Vuex);
 
@@ -45,7 +44,7 @@ const initialState = () => ({
 });
 
 const vuex = new Vuex.Store({
-  state: initialState,
+  state: initialState(),
   mutations: {
     // Общие мутации
   },
@@ -55,7 +54,7 @@ const vuex = new Vuex.Store({
   getters: {
     // Общие геттеры
   },
-  modules: initialModules(modules),
+  modules,
 });
 
 export default vuex;

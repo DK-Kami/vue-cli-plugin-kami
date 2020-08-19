@@ -2,10 +2,8 @@
  * Подключение модулей
  */
 
-import * as notification from './notification';
-import * as examples from './examples';
+import exampleModule from './example';
 
 export default {
-  notification,
-  examples,
+  exampleModule,
 };

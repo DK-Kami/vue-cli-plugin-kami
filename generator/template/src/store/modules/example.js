@@ -2,25 +2,29 @@
  * Пример модуля VueX
  */
 
-import services from "@/middleware";
-const { ExampleService } = services;
+import ExampleService from "@services/ExampleService";
+import VuexModule from "../VuexModule";
 
-export const initialState = () => ({
-  examples: [],
+const ExampleModule = new VuexModule({
+  initialState: () => ({
+    examples: [],
+  }),
+  
+  mutations: {
+    SET_EXAMPLES: (state, examples) => state.examples = examples,
+  },
+  
+  actions: {
+    async loadExamples({ commit }) {
+      const examples = (await ExampleService.loadExamples()).data;
+      commit('SET_EXAMPLES', examples);
+      return { error: false };
+    }
+  },
+  
+  getters: {
+    getExamples: state => state.examples,
+  },
 });
 
-export const mutations = {
-  SET_EXAMPLES: (state, examples) => state.examples = examples,
-};
-
-export const actions = {
-  async loadExamples({ commit }) {
-    const examples = (await ExampleService.loadExamples()).data;
-    commit('SET_EXAMPLES', examples)
-    return { error: false };
-  }
-};
-
-export const getters = {
-  getExamples: state => state.examples,
-};
+export default ExampleModule;
