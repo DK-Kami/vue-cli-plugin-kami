@@ -12,7 +12,7 @@ For usage copy and paste it in your directory console
 
 Application architecture
 
-![Test Image 4](docs\architecture.png)
+![Application architecture](docs/architecture.png)
 
 ## Services
 
