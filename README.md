@@ -1,9 +1,21 @@
-# README
-🦊 Preset for Vue application
+## About
 
+🦊 Preset for Vue application. With with a **ready-made architecture**
 
-## Usage
+## Install
 
-Copy and paste in your console:
+For usage copy and paste it in your directory console
 
-`vue create --preset KamiMeow/kami-vue-preset`
+`vue add vue-cli-plugin-kami`
+
+# Architecture
+
+Application architecture
+
+![Test Image 4](docs\architecture.png)
+
+## Services
+
+## Data Access Layer (DAL)
+
+## VueX
