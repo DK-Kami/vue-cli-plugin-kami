@@ -2,7 +2,6 @@ const generator = (api, options = {}, preset) => {
   api.extendPackage({
     dependencies: {
       "axios": "^0.19.0",
-      "chart.js": "^2.9.3",
       "vue-router": "^3.1.3",
       "vue-the-mask": "^0.11.1",
       "vuex": "^3.1.2"
