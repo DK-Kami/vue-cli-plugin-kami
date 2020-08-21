@@ -8,14 +8,16 @@ For usage copy and paste it in your directory console
 
 `vue add vue-cli-plugin-kami`
 
-# Architecture
+## Architecture
 
 Application architecture
 
 ![Application architecture](docs/architecture.png)
 
-## Services
+<!-- ### Services
 
-## Data Access Layer (DAL)
+Needed 
 
-## VueX
+### Data Access Layer (DAL)
+
+### VueX -->

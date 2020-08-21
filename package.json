@@ -1,6 +1,6 @@
 {
   "name": "vue-cli-plugin-kami",
-  "version": "0.10.0",
+  "version": "0.10.1",
   "description": "vue-cli preset for Vue application",
   "main": "index.js",
   "repository": {
