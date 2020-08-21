@@ -22,15 +22,15 @@ Generator has created these files:
 src
 ├── helper
 │   └── mixins
-│       ├── dialog.js             👈 mixin for dialog components
-│       └── main.js               👈 file with all mixins!
+│       ├── dialog.js             👈 Mixin for dialog components
+│       └── main.js               👈 File with all mixins!
 ├── middleware
-│   ├── WebClient.js              👈 axios config
+│   ├── WebClient.js              👈 Axios config
 │   └── services                  👈 All app services
 │       └── ExampleService.js
 ├── router
 │   ├── index.js
-│   ├── initListners.js           👈 inject all listners in router instance
+│   ├── initListners.js           👈 Inject all listners in router instance
 │   ├── routes
 │   └── listners
 │       ├── beforeEach.js         👈 Hook before page started load
@@ -38,10 +38,8 @@ src
 │       └── index.js
 └── store
     ├── index.js
-    ├── VuexModule.js             👈 Сlass that describes all Veux modules
+    ├── VuexModule.js             👈 Сlass that describes all Vuex modules
     └── modules
         ├── example.js
         └── index.js
 ```
-
-If you agreed to create a demo component, you will also see `TestMe` component in `src/components` folder.
