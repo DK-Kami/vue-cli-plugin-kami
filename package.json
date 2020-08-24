@@ -1,11 +1,11 @@
 {
   "name": "vue-cli-plugin-kami",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "vue-cli preset for Vue application",
   "main": "index.js",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/KamiMeow/kami-vue-preset.git"
+    "url": "git+https://github.com/KamiMeow/vue-cli-plugin-kami.git"
   },
   "keywords": [
     "vue",
