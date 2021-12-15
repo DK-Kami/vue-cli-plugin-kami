@@ -2,6 +2,8 @@
 
 🦊 Preset for Vue application. With a **ready-made architecture**
 
+[NPM plugin](https://www.npmjs.com/package/vue-cli-plugin-kami)
+
 ## Install
 
 For usage copy and paste it in your directory console
