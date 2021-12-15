@@ -16,7 +16,7 @@ const generator = (api) => {
 generator.hooks = (api) => {
   api.afterInvoke(() => {
     const fs = require('fs');
-    const contentMain = fs.readFileSync('/template/main.js', { encoding: 'utf-8' });
+    const contentMain = fs.readFileSync('./main.js', { encoding: 'utf-8' });
 
     fs.writeFileSync(api.entryFile, contentMain, { encoding: 'utf-8' })
   });
