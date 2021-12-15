@@ -1,6 +1,6 @@
 ## About
 
-🦊 Preset for Vue application. With with a **ready-made architecture**
+🦊 Preset for Vue application. With a **ready-made architecture**
 
 ## Install
 
